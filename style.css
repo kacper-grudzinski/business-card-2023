@@ -12,11 +12,25 @@ body{
     background: #F8F8F8;
     border-radius: 16px;
     padding: 32px;
+    flex-basis: 616px;
+}
+
+.card__content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 24px;
 }
 
 .card__description{
    line-height: 1.375; 
    margin: 0;
+}
+
+.card__info {
+    flex-basis: 380px;
+    flex-grow: 1;
 }
 
 .card__link{
