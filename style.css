@@ -45,6 +45,12 @@ body{
     font-weight: 400;
     font-size: 36px;
     margin: 0;
+    transition:all 0.5s ease-in-out;
+}
+
+.card__name:hover {
+color: #E20613;
+scale: 1.05;
 }
 
 .card__position{
